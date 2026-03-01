@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>EcoCommunity</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+<h2>🌱 EcoCommunity</h2>
+<div>
+<button onclick="showSection('home')">Home</button>
+<button onclick="showSection('report')">Report</button>
+<button onclick="showSection('feed')">Community</button>
+</div>
+</nav>
+
+<section id="home">
+<h1>Welcome Environmental Hero 🌍</h1>
+<p>Report issues and help your community find solutions.</p>
+</section>
+
+<section id="report" class="hidden">
+<h2>Create Report</h2>
+
+<input id="title" placeholder="Report Title">
+<textarea id="desc" placeholder="Describe issue"></textarea>
+<input type="file" id="media">
+
+<button onclick="postReport()">Submit Report</button>
+</section>
+
+<section id="feed" class="hidden">
+<h2>Community Reports</h2>
+<div id="posts"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

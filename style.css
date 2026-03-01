@@ -1,0 +1,42 @@
+body{
+margin:0;
+font-family:Arial;
+background:#f0faf0;
+color:#064e3b;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+background:white;
+padding:15px 40px;
+box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+button{
+background:#16a34a;
+color:white;
+border:none;
+padding:10px 18px;
+margin:5px;
+border-radius:8px;
+cursor:pointer;
+}
+
+section{
+padding:40px;
+text-align:center;
+}
+
+.hidden{
+display:none;
+}
+
+.post{
+background:white;
+padding:20px;
+margin:20px auto;
+width:70%;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
